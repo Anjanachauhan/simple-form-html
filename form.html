@@ -1,27 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+   <style>
+
+    body{
+        
+        text-align: center;
+        background-color: rgb(14, 100, 128);
+        background-image:url("https://cdn.pixabay.com/photo/2016/11/22/19/33/conifers-1850227_1280.jpg");
+    }
+    h1{
+        color: yellowgreen;
+    }
+    form{
+        background-color:violet;
+        width: 300px;
+        padding: 100px;
+        background-image: url("");
+    }
+    label{
+        width: 200px;
+          display: inline-block;
+          margin: 0.2px;
+        font-weight: bold;
+    }
+    input{
+        width: 150px;
+        display: inline-block;
+        margin:0..2px;
+        font-weight: bold;
+    }
+   </style>
 </head>
 <body>
+   
     <form>
+        <h1>Registration</h1>
         <leble for="first name">first name</leble>
-        <input type="text" id="fname" placeholder="name">
+        <input type="text" id="fname" placeholder="Enter your First name">
         <br><br>
         <leble for="last name">last name</leble>
-        <input type="text" id="lname" placeholder="name">
+        <input type="text" id="lname" placeholder="Enter your  Last name">
         <br><br>
         <leble for="no">phone no:</leble>
-        <input type="number" id="no" placeholder="no">
+        <input type="number" id="no" placeholder="Enter your No">
         <br><br>
         <leble for="Email">Email</leble>
-        <input type="text" id="Email" placeholder="Email">
+        <input type="text" id="Email" placeholder=" Enter your Email">
         <br><br>
         <leble for="pwd">Password</leble>
-        <input type="passwodr" id="pwd" placeholder="pwd">
+        <input type="passwodr" id="pwd" placeholder="Enter your password">
         <br><br>
+        <leble for="date">Date of birth</leble>
+        <input type="date" id="date" placeholder="dob">
+        <p>Select Gender</p>
+        <leble for="male">Male</leble>
+        <input type="checkbox" id="male" name="male">
+        <br><br>
+        <leble for="female">Female</leble>
+        <input type="checkbox" id="female" name="female">
+        <br><br>
+        <p>select your language</p>
         <label for="html">html</label>
         <input type="radio" id="html" name="html"><br>
         <label for="css">css</label>
@@ -29,33 +68,9 @@
         <label for="java script">java script</label>
         <input type="radio" id="java script" name="java script">
         <br><br>
-        <label for="cars">select a car:</label>
-        <select id="cars" name="cars">
-            <option value="volvo">volvo</option>
-            <option value="saab">saab</option>
-            <option value="fiat">fiat</option>
-            <option value="audi">audi</option>
-        </select><br><br>
-        <button>submit</button>
-
-
-
-
-
-
-
-
-
-
-
-
-
+        <button>submit</button><br><br>
         <button type="button" onclick="alert('hello!')">Click Me!</button>
-
-
-       
-
-        
     </form>
+
 </body>
 </html>
